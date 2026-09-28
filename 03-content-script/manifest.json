@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Highlight H1",
+  "version": "1.0.0",
+  "description": "Injects a content script into the active tab and highlights all H1 elements.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_title": "Highlight H1"
+  }
+}
